@@ -1,7 +1,7 @@
-<table>
-  <tr>
-    <td><img src="https://www.kotakneo.com/assets/kotak-logo.svg" alt="Kotak Neo" width="200"></td>
-    <td><strong>Official developer resources for the Kotak Neo Trading APIs.</strong></td>
+<table border="0" cellborder="0">
+  <tr border="0">
+    <td border="0" valign="middle"><img src="https://www.kotakneo.com/assets/kotak-logo.svg" alt="Kotak Neo" width="200"></td>
+    <td border="0" valign="middle"><h2>Official developer resources for the Kotak Neo Trading APIs</h2></td>
   </tr>
 </table>
 
