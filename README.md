@@ -2,8 +2,7 @@
 
 ### Official developer resources for the Kotak Neo Trading APIs
 
-<br clear="left">
-
+---
 
 Build trading and market-data applications on the Kotak Securities Neo platform —
 place orders, stream live market data, manage positions, and more.
