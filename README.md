@@ -2,8 +2,6 @@
   <img src="https://www.kotakneo.com/assets/kotak-logo.svg" alt="Kotak Neo" width="220">
 </p>
 
-<h1 align="center">Kotak Neo</h1>
-
 **Official developer resources for the Kotak Neo Trading APIs.**
 
 Build trading and market-data applications on the Kotak Securities Neo platform —
