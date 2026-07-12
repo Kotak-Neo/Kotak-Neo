@@ -1,9 +1,9 @@
-<table border="0" cellborder="0">
-  <tr border="0">
-    <td border="0" valign="middle"><img src="https://www.kotakneo.com/assets/kotak-logo.svg" alt="Kotak Neo" width="200"></td>
-    <td border="0" valign="middle"><h2>Official developer resources for the Kotak Neo Trading APIs</h2></td>
-  </tr>
-</table>
+<img src="https://www.kotakneo.com/assets/kotak-logo.svg" alt="Kotak Neo" width="200" align="left">
+
+### Official developer resources for the Kotak Neo Trading APIs
+
+<br clear="left">
+
 
 Build trading and market-data applications on the Kotak Securities Neo platform —
 place orders, stream live market data, manage positions, and more.
