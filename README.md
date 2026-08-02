@@ -15,7 +15,7 @@ place orders, stream live market data, manage positions, and more.
 
 ## 🚀 Official Python SDK (COMING SOON)
 
-**kotak-neo-python]** — will be the official,
+**kotak-neo-python** — will be the official,
 actively maintained Python SDK for the Kotak Neo Trading APIs.
 
 ### What's new vs. `kotak-neo-api-v2`
