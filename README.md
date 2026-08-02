@@ -13,29 +13,17 @@ place orders, stream live market data, manage positions, and more.
 
 ---
 
-## 🚀 Official Python SDK
+## 🚀 Official Python SDK (COMMING SOON)
 
-**[kotak-neo-python](https://github.com/Kotak-Neo/kotak-neo-python)** — the official,
+**kotak-neo-python]** — will be the official,
 actively maintained Python SDK for the Kotak Neo Trading APIs.
-
-```bash
-pip install kotakneoapi
-```
-
-> **Migrating from `kotak-neo-api-v2`?** That repository is now **legacy** and no
-> longer receiving updates — all active development has moved to
-> [kotak-neo-python](https://github.com/Kotak-Neo/kotak-neo-python). It will remain
-> available for a transition period before being made private; please migrate at
-> your convenience. See the
-> [Migration Guide](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/docs/guides/MIGRATION.md)
-> for upgrade steps.
 
 ### What's new vs. `kotak-neo-api-v2`
 
 A ground-up rebuild focused on reliability, safety, and a modern developer
 experience — not just a feature port.
 
-| | `kotak-neo-api-v2` (legacy) | `kotak-neo-python` (current) |
+| | `kotak-neo-api-v2` (current) | `kotak-neo-python` (new) |
 |---|---|---|
 | **WebSocket** | Callback-based (`on_message`, `subscribe(...)`) | **Async/await** — `async for message in ws`, typed Pydantic messages, auto-reconnect with re-subscription |
 | **HTTP transport** | `requests` (HTTP/1.1 only) | **`httpx` with HTTP/2** + automatic HTTP/1.1 fallback |
@@ -49,14 +37,11 @@ experience — not just a feature port.
 | **Order/position updates** | Not available as a dedicated stream | Separate **Order & Position Feed** WebSocket (`create_order_feed()`) |
 | **Installation** | `pip install` from a GitHub URL only | **Published on PyPI** — `pip install kotakneoapi` |
 
-See the [Migration Guide](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/docs/guides/MIGRATION.md)
-for a full parameter-by-parameter upgrade walkthrough.
-
 ---
 
 ## 💬 Support
 
-- 🐛 **Bugs & feature requests:** [open an issue](https://github.com/Kotak-Neo/kotak-neo-python/issues)
+- 🐛 **Bugs & feature requests:** [open an issue](https://github.com/Kotak-Neo/kotak-neo-api-v2/issues)
 - 📧 **Email:** support@kotakneo.com
 
 ---
