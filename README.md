@@ -35,7 +35,6 @@ experience — not just a feature port.
 | **Testing** | Minimal/none | **100% test coverage** — unit, integration, and end-to-end |
 | **`trading_symbol` on ticks** | Not available | Every WebSocket message enriched with its human-readable `trading_symbol` |
 | **Order/position updates** | Not available as a dedicated stream | Separate **Order & Position Feed** WebSocket (`create_order_feed()`) |
-| **Installation** | `pip install` from a GitHub URL only | **Published on PyPI** — `pip install kotakneoapi` |
 
 ---
 
