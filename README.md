@@ -27,7 +27,7 @@ Get it from PyPI as [`kotakneoapi`](https://pypi.org/project/kotakneoapi/):
 pip install kotakneoapi
 ```
 
-### Why you'll like it
+### Why you'll get
 
 - 🔐 **Log in in two steps** — TOTP + MPIN, and you're trading
 - 📝 **Place, tweak, or cancel orders** without breaking a sweat
