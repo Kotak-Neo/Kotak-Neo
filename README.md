@@ -2,10 +2,11 @@
   <img src="https://www.kotakneo.com/assets/kotak-logo.svg" alt="Kotak Neo" width="220">
 </p>
 
-<h2 align="center">Official developer resources for the Kotak Neo Trading APIs</h2>
+<h2 align="center">Code your way to the markets 📈</h2>
 
-Build trading and market-data applications on the Kotak Securities Neo platform —
-place orders, stream live market data, manage positions, and more.
+Everything you need to build on the Kotak Neo trading platform — place trades,
+watch prices tick in real time, track your positions, and build the trading
+tools you've always wanted. All from Python.
 
 [![Website](https://img.shields.io/badge/Kotak_Neo-Trade_API-0a66c2)](https://www.kotaksecurities.com/platform/kotak-neo-trade-api/)
 [![PyPI](https://img.shields.io/badge/pypi-kotakneoapi-green.svg)](https://pypi.org/project/kotakneoapi/)
@@ -13,56 +14,51 @@ place orders, stream live market data, manage positions, and more.
 
 ---
 
-## 🚀 Official Python SDK: kotak-neo-python
+## 🚀 Start here: kotak-neo-python
 
-**[kotak-neo-python](https://github.com/Kotak-Neo/kotak-neo-python)** is the
-official, actively maintained Python SDK for the Kotak Neo Trading APIs.
-Install it from PyPI as [`kotakneoapi`](https://pypi.org/project/kotakneoapi/).
+**[kotak-neo-python](https://github.com/Kotak-Neo/kotak-neo-python)** is our
+one true, actively-maintained Python toolkit for the Kotak Neo Trading APIs.
+Whether you're automating a trading strategy, building a dashboard, or just
+tinkering on a weekend project — this is the one to pick up.
+
+Get it from PyPI as [`kotakneoapi`](https://pypi.org/project/kotakneoapi/):
 
 ```bash
 pip install kotakneoapi
 ```
 
-### Features
+### Why you'll like it
 
-- ✅ **Authentication** — TOTP-based secure login with 2FA
-- ✅ **Order Management** — Place, modify, cancel orders (Regular/AMO)
-- ✅ **Portfolio & Positions** — Real-time holdings, positions, and limits
-- ✅ **Market Data** — Live quotes, scrip master, search functionality
-- ✅ **SFeed WebSocket Streaming** — Modern async/await live market feed with
-  typed messages, enriched with `trading_symbol`
-- ✅ **Order & Position Feed** — Dedicated async WebSocket for real-time
-  order-lifecycle and position updates (`create_order_feed()`)
-- ✅ **HTTP/2 Transport** — REST calls use HTTP/2 (via `httpx`) with automatic
-  HTTP/1.1 fallback
-- ✅ **Strict Input Validation** — Invalid exchange segments, products, and
-  order types are rejected client-side before a network call
-- ✅ **Optional Reliability Utilities** — Opt-in rate limiting, plus retry and
-  circuit-breaker helpers
-- ✅ **Comprehensive Error Handling** — Structured exception hierarchy
-  (`AuthenticationError`, `ValidationError`, `RateLimitError`, `OrderError`, …)
-- ✅ **Type Safety** — Full mypy type checking support
-- ✅ **Extensive Testing** — 100% test coverage (unit, integration, and E2E tests)
+- 🔐 **Log in in two steps** — TOTP + MPIN, and you're trading
+- 📝 **Place, tweak, or cancel orders** without breaking a sweat
+- 💼 **Know what you hold** — live positions, holdings, and limits, always up to date
+- 📊 **Live prices, live everything** — a real-time market feed built on modern async Python, so your app reacts the instant the market moves
+- 🔔 **Never miss an update** — a dedicated feed streams your order and position changes as they happen
+- 🛡️ **Fewer surprises** — the SDK catches bad inputs before they ever reach the exchange, and speaks up clearly when something's wrong
+- ⚡ **Built for speed** — modern HTTP/2 under the hood
+- 🚦 **Play it safe** — built-in helpers for rate limits and retries, so one hiccup doesn't take down your bot
+- ✅ **Battle-tested** — thoroughly tested from top to bottom, so you can build with confidence
 
 ### Get started
 
 - 📖 [README & Quick Start](https://github.com/Kotak-Neo/kotak-neo-python#readme)
 - 📚 [Full API Documentation](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/docs/functions/README.md)
-- 🔀 [Migration Guide & Scanner](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/docs/guides/MIGRATION.md) — moving from `kotak-neo-api-v2`
+- 🔀 [Coming from our old SDK?](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/docs/guides/MIGRATION.md) — we've got a guide (and a script that does most of the work for you)
 
 ---
 
-## 📦 Legacy repository
+## 📦 About our old repo
 
-**[kotak-neo-api-v2](https://github.com/Kotak-Neo/kotak-neo-api-v2)** is now a
-legacy repository. New projects should use `kotak-neo-python` instead.
+**[kotak-neo-api-v2](https://github.com/Kotak-Neo/kotak-neo-api-v2)** is our
+retired, legacy SDK. It's not going anywhere overnight, but it won't get new
+features — so start any new project with `kotak-neo-python` above instead.
 
 ---
 
-## 💬 Support
+## 💬 Need a hand?
 
-- 🐛 **Bugs & feature requests:** [open an issue](https://github.com/Kotak-Neo/kotak-neo-python/issues)
-- 📧 **Email:** support@kotakneo.com
+- 🐛 **Found a bug, or have an idea?** [Open an issue](https://github.com/Kotak-Neo/kotak-neo-python/issues)
+- 📧 **Prefer email?** support@kotakneo.com
 
 ---
 
