@@ -36,7 +36,6 @@ pip install kotakneoapi
 - 🔔 **Never miss an update** — a dedicated feed streams your order and position changes as they happen
 - 🛡️ **Fewer surprises** — the SDK catches bad inputs before they ever reach the exchange, and speaks up clearly when something's wrong
 - ⚡ **Built for speed** — modern HTTP/2 under the hood
-- 🚦 **Play it safe** — built-in helpers for rate limits and retries, so one hiccup doesn't take down your bot
 - ✅ **Battle-tested** — thoroughly tested from top to bottom, so you can build with confidence
 
 ### Get started
