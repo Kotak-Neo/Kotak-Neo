@@ -8,7 +8,7 @@ Everything you need to build on the Kotak Neo trading platform — place trades,
 watch prices tick in real time, track your positions, and build the trading
 tools you've always wanted. All from Python.
 
-[![Website](https://img.shields.io/badge/Kotak_Neo-Trade_API-0a66c2)](https://www.kotaksecurities.com/platform/kotak-neo-trade-api/)
+[![Website](https://img.shields.io/badge/Kotak_Neo-Trade_API-0a66c2)](https://www.kotakneo.com/platform/kotak-neo-trade-api/)
 [![PyPI](https://img.shields.io/badge/pypi-kotakneoapi-green.svg)](https://pypi.org/project/kotakneoapi/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/LICENSE)
 
