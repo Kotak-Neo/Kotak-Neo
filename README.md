@@ -33,7 +33,7 @@ pip install kotakneoapi
 - 📝 **Place, tweak, or cancel orders** without breaking a sweat
 - 💼 **Know what you hold** — live positions, holdings, and limits, always up to date
 - 📊 **Live prices, live everything** — a real-time market feed built on modern async Python, so your app reacts the instant the market moves
-- 🔔 **Never miss an update** — a dedicated feed streams your order and position changes as they happen
+- 🔔 **Never miss an order/ position update** — a dedicated feed streams your order and position changes as they happen
 - 🛡️ **Fewer surprises** — the SDK catches bad inputs before they ever reach the exchange, and speaks up clearly when something's wrong
 - ⚡ **Built for speed** — modern HTTP/2 under the hood
 - ✅ **Battle-tested** — thoroughly tested from top to bottom, so you can build with confidence
