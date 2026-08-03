@@ -13,34 +13,55 @@ place orders, stream live market data, manage positions, and more.
 
 ---
 
-## 🚀 Official Python SDK (COMING SOON)
+## 🚀 Official Python SDK: kotak-neo-python
 
-**kotak-neo-python** — will be the official,
-actively maintained Python SDK for the Kotak Neo Trading APIs.
+**[kotak-neo-python](https://github.com/Kotak-Neo/kotak-neo-python)** is the
+official, actively maintained Python SDK for the Kotak Neo Trading APIs.
+Install it from PyPI as [`kotakneoapi`](https://pypi.org/project/kotakneoapi/).
 
-### What's new vs. `kotak-neo-api-v2`
+```bash
+pip install kotakneoapi
+```
 
-A ground-up rebuild focused on reliability, safety, and a modern developer
-experience — not just a feature port.
+### Features
 
-| | `kotak-neo-api-v2` (current) | `kotak-neo-python` (new) |
-|---|---|---|
-| **WebSocket** | Callback-based (`on_message`, `subscribe(...)`) | **Async/await** — `async for message in ws`, typed Pydantic messages, auto-reconnect with re-subscription |
-| **HTTP transport** | `requests` (HTTP/1.1 only) | **`httpx` with HTTP/2** + automatic HTTP/1.1 fallback |
-| **Input validation** | Aliases/typos silently accepted or passed through (e.g. `"NSE"`, `"Limit"`) | **Strict, exact-match validation** client-side — invalid segments/products/order-types rejected before a network call |
-| **Order types supported** | Bracket (`BO`) & Cover (`CO`) orders, `GTC`/`EOS`/`GTD` validity — no longer supported by the exchange but still silently accepted | Only exchange-supported values accepted: `CNC`/`NRML`/`MIS`/`MTF` products, `DAY`/`IOC` validity |
-| **Type safety** | None — plain dicts everywhere | **Full mypy coverage**, typed method signatures, typed WebSocket message models |
-| **Error handling** | Bare exceptions, inconsistent shapes | Structured exception hierarchy (`AuthenticationError`, `ValidationError`, `RateLimitError`, `OrderError`, …) |
-| **Reliability** | None built in | **Opt-in** rate limiting, retry with backoff, and circuit-breaker utilities |
-| **Testing** | Minimal/none | **100% test coverage** — unit, integration, and end-to-end |
-| **`trading_symbol` on ticks** | Not available | Every WebSocket message enriched with its human-readable `trading_symbol` |
-| **Order/position updates** | Not available as a dedicated stream | Separate **Order & Position Feed** WebSocket (`create_order_feed()`) |
+- ✅ **Authentication** — TOTP-based secure login with 2FA
+- ✅ **Order Management** — Place, modify, cancel orders (Regular/AMO)
+- ✅ **Portfolio & Positions** — Real-time holdings, positions, and limits
+- ✅ **Market Data** — Live quotes, scrip master, search functionality
+- ✅ **SFeed WebSocket Streaming** — Modern async/await live market feed with
+  typed messages, enriched with `trading_symbol`
+- ✅ **Order & Position Feed** — Dedicated async WebSocket for real-time
+  order-lifecycle and position updates (`create_order_feed()`)
+- ✅ **HTTP/2 Transport** — REST calls use HTTP/2 (via `httpx`) with automatic
+  HTTP/1.1 fallback
+- ✅ **Strict Input Validation** — Invalid exchange segments, products, and
+  order types are rejected client-side before a network call
+- ✅ **Optional Reliability Utilities** — Opt-in rate limiting, plus retry and
+  circuit-breaker helpers
+- ✅ **Comprehensive Error Handling** — Structured exception hierarchy
+  (`AuthenticationError`, `ValidationError`, `RateLimitError`, `OrderError`, …)
+- ✅ **Type Safety** — Full mypy type checking support
+- ✅ **Extensive Testing** — 100% test coverage (unit, integration, and E2E tests)
+
+### Get started
+
+- 📖 [README & Quick Start](https://github.com/Kotak-Neo/kotak-neo-python#readme)
+- 📚 [Full API Documentation](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/docs/functions/README.md)
+- 🔀 [Migration Guide & Scanner](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/docs/guides/MIGRATION.md) — moving from `kotak-neo-api-v2`
+
+---
+
+## 📦 Legacy repository
+
+**[kotak-neo-api-v2](https://github.com/Kotak-Neo/kotak-neo-api-v2)** is now a
+legacy repository. New projects should use `kotak-neo-python` instead.
 
 ---
 
 ## 💬 Support
 
-- 🐛 **Bugs & feature requests:** [open an issue](https://github.com/Kotak-Neo/kotak-neo-api-v2/issues)
+- 🐛 **Bugs & feature requests:** [open an issue](https://github.com/Kotak-Neo/kotak-neo-python/issues)
 - 📧 **Email:** support@kotakneo.com
 
 ---
