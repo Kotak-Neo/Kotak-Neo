@@ -44,7 +44,7 @@ features — so start any new project with `kotak-neo-python` above instead.
 
 ## 💬 Need a hand?
 
-- 🐛 **Found a bug, or have an idea?** [Open an issue](https://github.com/Kotak-Neo/kotak-neo-python/issues)
+- 🐛 **Found a bug, or have an idea?** [Open an issue](https://github.com/Kotak-Neo/kotak-neo-api-v2/issues)
 - 📧 **Prefer email?** support@kotakneo.com
 
 ---
