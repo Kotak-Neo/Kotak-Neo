@@ -14,18 +14,12 @@ tools you've always wanted. All from Python.
 
 ---
 
-## 🚀 Start here: kotak-neo-python
+## 🚀 Coming Soon: kotak-neo-python
 
-**[kotak-neo-python](https://github.com/Kotak-Neo/kotak-neo-python)** is our
+**kotak-neo-python** is our
 one true, actively-maintained Python toolkit for the Kotak Neo Trading APIs.
 Whether you're automating a trading strategy, building a dashboard, or just
 tinkering on a weekend project — this is the one to pick up.
-
-Get it from PyPI as [`kotakneoapi`](https://pypi.org/project/kotakneoapi/):
-
-```bash
-pip install kotakneoapi
-```
 
 ### Why you'll get
 
@@ -38,15 +32,9 @@ pip install kotakneoapi
 - ⚡ **Built for speed** — modern HTTP/2 under the hood
 - ✅ **Battle-tested** — thoroughly tested from top to bottom, so you can build with confidence
 
-### Get started
-
-- 📖 [README & Quick Start](https://github.com/Kotak-Neo/kotak-neo-python#readme)
-- 📚 [Full API Documentation](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/docs/functions/README.md)
-- 🔀 [Coming from our old SDK?](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/docs/guides/MIGRATION.md) — we've got a guide (and a script that does most of the work for you)
-
 ---
 
-## 📦 About our old repo
+## 📦 About our current repo
 
 **[kotak-neo-api-v2](https://github.com/Kotak-Neo/kotak-neo-api-v2)** is our
 retired, legacy SDK. It's not going anywhere overnight, but it won't get new
