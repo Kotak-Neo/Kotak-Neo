@@ -36,7 +36,7 @@ tinkering on a weekend project — this is the one to pick up.
 
 ## 📚 Documentation
 
-- **[kotak-neo-python SDK docs](https://github.com/Kotak-Neo/kotak-neo-python/tree/main/docs)** — guides, function reference, and migration notes for the Python SDK
+- **[kotak-neo-python](https://github.com/Kotak-Neo/kotak-neo-python)** — the Python SDK repo itself, with guides, function reference, and migration notes in its docs
 - **[Trade REST API documentation](docs/)** — the underlying REST + WebSocket APIs the SDK wraps: authentication, orders, portfolio, market data, and streaming
 
 The SDK is there to make integration easier, not to gatekeep it — if you're
