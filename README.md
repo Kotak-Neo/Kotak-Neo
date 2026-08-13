@@ -34,6 +34,13 @@ tinkering on a weekend project — this is the one to pick up.
 
 ---
 
+## 📚 Documentation
+
+- **[kotak-neo-python SDK docs](https://github.com/Kotak-Neo/kotak-neo-python/tree/main/docs)** — guides, function reference, and migration notes for the Python SDK
+- **[Trade REST API documentation](docs/)** — the underlying REST + WebSocket APIs the SDK wraps: authentication, orders, portfolio, market data, and streaming
+
+---
+
 ## 📦 About our current repo
 
 **[kotak-neo-api-v2](https://github.com/Kotak-Neo/kotak-neo-api-v2)** is our
