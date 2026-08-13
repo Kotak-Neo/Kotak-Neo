@@ -9,6 +9,8 @@
   <a href="docs/"><img src="https://img.shields.io/badge/Trade%20API-Documentation-0a66c2?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Trade API Documentation"></a>
 </p>
 
+---
+
 - **[kotak-neo-python](https://github.com/Kotak-Neo/kotak-neo-python)** — the Python SDK repo itself, with guides, function reference, and migration notes in its docs
 - **[Trade REST API documentation](docs/)** — the underlying REST + WebSocket APIs the SDK wraps: authentication, orders, portfolio, market data, and streaming
 
