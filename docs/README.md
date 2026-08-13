@@ -1,7 +1,7 @@
 # Kotak Neo Trade REST API Documentation
 
 Reference documentation for the Kotak Neo Trade REST APIs — authentication, orders,
-portfolio, market data, and both WebSocket feeds.
+portfolio, market data, and the order/position WebSocket feed.
 
 These APIs can be called directly in any language if you're comfortable doing your
 own integration work (auth, request signing, error handling, etc.) — this
@@ -24,8 +24,6 @@ SDK wraps all of this into a typed, tested Python client (`pip install kotakneoa
 💼 [Portfolio & Funds](portfolio-and-funds-apis.md) - Holdings, positions, limits, margin
 
 📄 [Reports](order-report-apis.md) - Order history, orderbook, tradebook
-
-🔌 [NEO Websocket](neo-websocket.md) - Live market feed (HSM) over WebSocket
 
 📡 [Order & Position Streaming API (WebSocket)](order-position-streaming-api.md) - Live order/position updates
 
