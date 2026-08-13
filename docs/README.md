@@ -3,9 +3,11 @@
 Reference documentation for the Kotak Neo Trade REST APIs — authentication, orders,
 portfolio, market data, and both WebSocket feeds.
 
-> Prefer not to call these REST endpoints directly? The
-> **[kotak-neo-python](https://github.com/Kotak-Neo/kotak-neo-python)** SDK wraps all
-> of this into a typed, tested Python client (`pip install kotakneoapi`).
+These APIs can be called directly in any language if you're comfortable doing your
+own integration work (auth, request signing, error handling, etc.) — this
+documentation is all you need for that. Prefer not to build that integration
+yourself? The **[kotak-neo-python](https://github.com/Kotak-Neo/kotak-neo-python)**
+SDK wraps all of this into a typed, tested Python client (`pip install kotakneoapi`).
 
 ## 📚 Quick Navigation
 
