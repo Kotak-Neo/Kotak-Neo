@@ -4,6 +4,11 @@
 
 <h2 align="center">Code your way to the markets 📈</h2>
 
+<p align="center">
+  <a href="https://github.com/Kotak-Neo/kotak-neo-python"><img src="https://img.shields.io/badge/kotak--neo--python-SDK-0a66c2?style=for-the-badge&logo=github" alt="kotak-neo-python SDK"></a>
+  <a href="docs/"><img src="https://img.shields.io/badge/Trade%20API-Documentation-0a66c2?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Trade API Documentation"></a>
+</p>
+
 Everything you need to build on the Kotak Neo trading platform — place trades,
 watch prices tick in real time, track your positions, and build the trading
 tools you've always wanted. All from Python.
