@@ -9,6 +9,14 @@
   <a href="docs/"><img src="https://img.shields.io/badge/Trade%20API-Documentation-0a66c2?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Trade API Documentation"></a>
 </p>
 
+- **[kotak-neo-python](https://github.com/Kotak-Neo/kotak-neo-python)** — the Python SDK repo itself, with guides, function reference, and migration notes in its docs
+- **[Trade REST API documentation](docs/)** — the underlying REST + WebSocket APIs the SDK wraps: authentication, orders, portfolio, market data, and streaming
+
+The SDK is there to make integration easier, not to gatekeep it — if you're
+tech-savvy and comfortable working with programming languages, you can call
+the Trade REST APIs directly using the documentation linked above, in
+whichever language you prefer.
+
 Everything you need to build on the Kotak Neo trading platform — place trades,
 watch prices tick in real time, track your positions, and build the trading
 tools you've always wanted. All from Python.
@@ -36,18 +44,6 @@ tinkering on a weekend project — this is the one to pick up.
 - 🛡️ **Fewer surprises** — the SDK catches bad inputs before they ever reach the exchange, and speaks up clearly when something's wrong
 - ⚡ **Built for speed** — modern HTTP/2 under the hood
 - ✅ **Battle-tested** — thoroughly tested from top to bottom, so you can build with confidence
-
----
-
-## 📚 Documentation
-
-- **[kotak-neo-python](https://github.com/Kotak-Neo/kotak-neo-python)** — the Python SDK repo itself, with guides, function reference, and migration notes in its docs
-- **[Trade REST API documentation](docs/)** — the underlying REST + WebSocket APIs the SDK wraps: authentication, orders, portfolio, market data, and streaming
-
-The SDK is there to make integration easier, not to gatekeep it — if you're
-tech-savvy and comfortable working with programming languages, you can call
-the Trade REST APIs directly using the documentation linked above, in
-whichever language you prefer.
 
 ---
 
