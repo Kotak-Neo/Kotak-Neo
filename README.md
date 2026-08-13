@@ -25,13 +25,11 @@ tools you've always wanted. All from Python.
 
 ---
 
+## 🚀 Coming Soon: kotak-neo-python
+
 [![Website](https://img.shields.io/badge/Kotak_Neo-Trade_API-0a66c2)](https://www.kotakneo.com/platform/kotak-neo-trade-api/)
 [![PyPI](https://img.shields.io/badge/pypi-kotakneoapi-green.svg)](https://pypi.org/project/kotakneoapi/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/LICENSE)
-
----
-
-## 🚀 Coming Soon: kotak-neo-python
 
 **kotak-neo-python** is our
 one true, actively-maintained Python toolkit for the Kotak Neo Trading APIs.
