@@ -25,7 +25,7 @@ manage your portfolio, all from Python.
 
 The SDK is there to make integration easier, not to gatekeep it — if you're
 tech-savvy and comfortable working with programming languages, you can call
-the Trade REST APIs directly using the documentation linked above, in
+the Kotak Neo REST APIs directly using the documentation linked above, in
 whichever language you prefer.
 
 Everything you need to build on the Kotak Neo trading platform — place trades,

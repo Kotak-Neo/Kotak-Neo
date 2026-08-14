@@ -1,6 +1,6 @@
-# Kotak Neo Trade REST API Documentation
+# Kotak Neo REST API Documentation
 
-Reference documentation for the Kotak Neo Trade REST APIs — authentication, orders,
+Reference documentation for the Kotak Neo REST APIs — authentication, orders,
 portfolio, market data, and the order/position WebSocket feed.
 
 These APIs can be called directly in any language if you're comfortable doing your
