@@ -7,4 +7,4 @@ Python SDK Github: [https://github.com/Kotak-Neo/kotak-neo-python](https://githu
 
 Got an issue with REST APIs/SDK? Tell us on Github issues: [https://github.com/Kotak-Neo/kotak-neo-python/issues](https://github.com/Kotak-Neo/kotak-neo-python/issues)
 
-[cURL examples](api-reference/curl-examples.md)
+[cURL examples](curl-examples.md)

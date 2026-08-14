@@ -302,4 +302,4 @@ Troubleshooting:
 
 •	[cURL Examples](api-reference/curl-examples.md)
 Need help?
-•	Jump to [API reference section](api-reference.md)
+•	Jump to [API reference section](api-reference/README.md)

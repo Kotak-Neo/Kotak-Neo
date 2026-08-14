@@ -17,11 +17,11 @@ SDK wraps all of this into a typed, tested Python client (`pip install kotakneoa
 
 🌐 [Static IP Whitelisting](static-ip-whitelisting.md) - For retail algo trading
 
-📈 [Market Data](market-data-apis.md) - Quotes and instrument master
+📈 [Market Data](market-data-apis/README.md) - Quotes and instrument master
 
 📊 [Trading Operations](trading-apis.md) - Place, modify, cancel orders
 
-💼 [Portfolio & Funds](portfolio-and-funds-apis.md) - Holdings, positions, limits, margin
+💼 [Portfolio & Funds](portfolio-and-funds-apis/README.md) - Holdings, positions, limits, margin
 
 📄 [Reports](order-report-apis.md) - Order history, orderbook, tradebook
 
@@ -29,4 +29,4 @@ SDK wraps all of this into a typed, tested Python client (`pip install kotakneoa
 
 🐛 [Troubleshooting](troubleshooting.md) - Check here when stuck, common error codes
 
-📖 [Complete API Reference](api-reference.md) - Downloadable reference and curl examples
+📖 [Complete API Reference](api-reference/README.md) - Downloadable reference and curl examples
