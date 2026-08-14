@@ -18,8 +18,8 @@ SDK. It's the fastest way to authenticate, trade, stream live prices, and
 manage your portfolio, all from Python.
 
 <p align="center">
-  <a href="https://github.com/Kotak-Neo/kotak-neo-python"><img src="https://img.shields.io/badge/Kotak%20Neo%20Python%20SDK-0a66c2?style=for-the-badge&logo=github&logoColor=white" alt="Kotak Neo Python SDK"></a>
-  <a href="docs/"><img src="https://img.shields.io/badge/Kotak%20Neo%20REST%20API%20Docs-0a66c2?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Kotak Neo REST API Docs"></a>
+  <a href="https://github.com/Kotak-Neo/kotak-neo-python"><img src="https://img.shields.io/badge/Kotak%20Neo%20Python-SDK-0a66c2?style=for-the-badge&logo=github" alt="Kotak Neo Python SDK"></a>
+  <a href="docs/"><img src="https://img.shields.io/badge/Kotak%20Neo%20REST%20API-Docs-0a66c2?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Kotak Neo REST API Docs"></a>
 </p>
 
 The SDK is there to make integration easier, not to gatekeep it — if you're
