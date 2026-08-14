@@ -4,18 +4,11 @@
 
 <h2 align="center">Code your way to the markets 📈</h2>
 
-**[Kotak Neo REST API documentation](docs/)** in this repo covers the
-underlying REST and WebSocket APIs the SDK wraps under the hood —
-authentication, placing and managing orders, portfolio and funds, market data,
-and live order/position streaming. Use it directly if you're integrating from
-a language other than Python, or just want to see exactly what the SDK is
-doing for you.
+**[Kotak Neo REST API documentation](docs/)** covers the REST and WebSocket APIs behind the SDK — auth, orders, portfolio, market data, and streaming.<br>
+Use it directly for non-Python integrations, or to see exactly what the SDK does under the hood.
 
-**[Kotak Neo Python SDK](https://github.com/Kotak-Neo/kotak-neo-python)** is our
-actively-maintained Python SDK — the repo itself, complete with setup guides, a
-full function reference, and migration notes if you're moving off the legacy
-SDK. It's the fastest way to authenticate, trade, stream live prices, and
-manage your portfolio, all from Python.
+**[Kotak Neo Python SDK](https://github.com/Kotak-Neo/kotak-neo-python)** is our actively-maintained Python toolkit, with setup guides, a function reference, and migration notes.<br>
+The fastest way to authenticate, trade, stream live prices, and manage your portfolio — all from Python.
 
 <p align="center">
   <a href="https://github.com/Kotak-Neo/kotak-neo-python"><img src="https://img.shields.io/badge/Kotak%20Neo%20Python-SDK-0a66c2?style=for-the-badge&logo=github" alt="Kotak Neo Python SDK"></a>
