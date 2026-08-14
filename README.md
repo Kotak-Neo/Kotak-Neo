@@ -4,7 +4,7 @@
 
 <h2 align="center">Code your way to the markets 📈</h2>
 
-The **[Kotak REST API documentation](docs/)** in this repo covers the
+**[Kotak REST API documentation](docs/)** in this repo covers the
 underlying REST and WebSocket APIs the SDK wraps under the hood —
 authentication, placing and managing orders, portfolio and funds, market data,
 and live order/position streaming. Use it directly if you're integrating from
@@ -18,8 +18,8 @@ SDK. It's the fastest way to authenticate, trade, stream live prices, and
 manage your portfolio, all from Python.
 
 <p align="center">
-  <a href="https://github.com/Kotak-Neo/kotak-neo-python"><img src="https://img.shields.io/badge/kotak--neo--python-SDK-0a66c2?style=for-the-badge&logo=github" alt="kotak-neo-python SDK"></a>
-  <a href="docs/"><img src="https://img.shields.io/badge/Trade%20API-Documentation-0a66c2?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Trade API Documentation"></a>
+  <a href="https://github.com/Kotak-Neo/kotak-neo-python"><img src="https://img.shields.io/badge/kotak--neo--python-SDK-0a66c2?style=for-the-badge&logo=github" alt="Kotak Neo Python SDK"></a>
+  <a href="docs/"><img src="https://img.shields.io/badge/Trade%20API-Documentation-0a66c2?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Kotak Neo REST API Docs"></a>
 </p>
 
 The SDK is there to make integration easier, not to gatekeep it — if you're
