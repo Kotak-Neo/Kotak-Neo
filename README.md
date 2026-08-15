@@ -26,7 +26,7 @@ tools you've always wanted. All from Python.
 
 ---
 
-## 🚀 Coming Soon: kotak-neo-python
+## 🚀 Kotak Neo Python SDK
 
 [![Website](https://img.shields.io/badge/Kotak_Neo-Trade_API-0a66c2)](https://www.kotakneo.com/platform/kotak-neo-trade-api/)
 [![PyPI](https://img.shields.io/badge/pypi-kotakneoapi-green.svg)](https://pypi.org/project/kotakneoapi/)
@@ -37,7 +37,7 @@ one true, actively-maintained Python toolkit for the Kotak Neo Trading APIs.
 Whether you're automating a trading strategy, building a dashboard, or just
 tinkering on a weekend project — this is the one to pick up.
 
-### Why you'll get
+### What you'll get
 
 - 🔐 **Log in in two steps** — TOTP + MPIN, and you're trading
 - 📝 **Place, tweak, or cancel orders** without breaking a sweat
@@ -50,7 +50,7 @@ tinkering on a weekend project — this is the one to pick up.
 
 ---
 
-## 📦 About our current repo
+## 📦 About our previous repo
 
 **[kotak-neo-api-v2](https://github.com/Kotak-Neo/kotak-neo-api-v2)** is our
 retired, legacy SDK. It's not going anywhere overnight, but it won't get new
@@ -60,7 +60,7 @@ features — so start any new project with `kotak-neo-python` above instead.
 
 ## 💬 Need a hand?
 
-- 🐛 **Found a bug, or have an idea?** [Open an issue](https://github.com/Kotak-Neo/kotak-neo-api-v2/issues)
+- 🐛 **Found a bug, or have an idea?** [Open an issue](https://github.com/Kotak-Neo/kotak-neo-python/issues)
 - 📧 **Prefer email?** support@kotakneo.com
 
 ---
