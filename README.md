@@ -54,7 +54,7 @@ tinkering on a weekend project — this is the one to pick up.
 
 **[kotak-neo-api-v2](https://github.com/Kotak-Neo/kotak-neo-api-v2)** is our
 retired, legacy SDK. It's not going anywhere overnight, but it won't get new
-features — so start any new project with [kotak-neo-python](https://github.com/Kotak-Neo/kotak-neo-python) above instead.
+features — so start any new project with **[kotak-neo-python](https://github.com/Kotak-Neo/kotak-neo-python)** above instead.
 
 ---
 
