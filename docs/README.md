@@ -22,6 +22,7 @@ SDK wraps all of this into a typed, tested Python client (`pip install kotakneoa
 📊 [Trading Operations](trading-apis.md) - Place, modify, cancel orders
 
 💼 [Portfolio & Funds](portfolio-and-funds-apis/README.md) - Holdings, positions, limits, margin
+  - [Positions](portfolio-and-funds-apis/positions.md) · [Holdings](portfolio-and-funds-apis/holdings.md) · [Limits](portfolio-and-funds-apis/limits.md) · [Margins](portfolio-and-funds-apis/margins.md)
 
 📄 [Reports](order-report-apis.md) - Order history, orderbook, tradebook
 
