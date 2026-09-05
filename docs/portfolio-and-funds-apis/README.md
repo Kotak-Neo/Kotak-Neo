@@ -16,5 +16,5 @@ quantity, for the equity portfolio you're actually holding.
 cash balances, filtered by segment, exchange, and product type.
 
 🛡️ [Margins](margins.md) - Check the margin required (and your available balance) for a
-new order — including Bracket Orders (BO) and Cover Orders (CO) — so you know it'll go
+new order — so you know it'll go
 through *before* you place it.
