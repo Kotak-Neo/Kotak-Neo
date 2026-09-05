@@ -17,7 +17,7 @@ SDK wraps all of this into a typed, tested Python client (`pip install kotakneoa
 
 🌐 [Static IP Whitelisting](static-ip-whitelisting.md) - For retail algo trading
 
-📈 [Market Data](market-data-apis/README.md) - [Instruments](market-data-apis/instruments.md), [Quotes](market-data-apis/quotes.md), [Market Data WebSocket](market-data-apis/websocket.md)
+📈 [Market Data](market-data-apis/README.md) - [Instruments](market-data-apis/instruments.md), [Quotes](market-data-apis/quotes.md), [Expiries](market-data-apis/expiries.md), [Option Chain](market-data-apis/option-chain.md), [Historical Data](market-data-apis/historical-data.md), [Market Data WebSocket](market-data-apis/websocket.md)
 
 📊 [Trading Operations](trading-apis.md) - Place, modify, cancel orders
 
