@@ -30,6 +30,7 @@ tools you've always wanted. All from Python.
 
 [![Website](https://img.shields.io/badge/Kotak_Neo-Trade_API-0a66c2)](https://www.kotakneo.com/platform/kotak-neo-trade-api/)
 [![PyPI](https://img.shields.io/badge/pypi-kotakneoapi-green.svg)](https://pypi.org/project/kotakneoapi/)
+[![Version](https://img.shields.io/badge/version-3.0.5-green.svg)](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/LICENSE)
 
 **kotak-neo-python** is our
@@ -48,6 +49,19 @@ tinkering on a weekend project — this is the one to pick up.
 - 🛡️ **Fewer surprises** — the SDK catches bad inputs before they ever reach the exchange, and speaks up clearly when something's wrong
 - ⚡ **Built for speed** — modern HTTP/2 under the hood
 - ✅ **Battle-tested** — thoroughly tested from top to bottom, so you can build with confidence
+
+### 🆕 What's new in v3.0.5
+
+Compared to the previous release (v3.0.1), the SDK added:
+
+- **New market-data functions** — `expiries()`, `option_chain()`, and `historical_data()`
+- **Order tagging** — `place_order(tag=...)`, echoed back in `order_report()`/`trade_report()` for tracking
+- **Market status / CAS support** on the live feed — session open/close, pre-open, and Call Auction Session updates
+- **Jupyter Notebook support** — install guide, compatibility CI, and a smoke-test notebook
+- **A sync-integration guide** for using the async feeds from Django/Flask/Celery-style synchronous apps
+- **A logging overhaul** — structured JSON logging, one log line per request instead of several, and auto-masked sensitive fields
+
+See the SDK's **[CHANGELOG.md](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/CHANGELOG.md)** for full details.
 
 ---
 
