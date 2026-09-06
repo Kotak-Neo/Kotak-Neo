@@ -446,7 +446,7 @@ Total: **16 bytes**.
 
 ### 7.6 CAS Reference — `message_code == 104` (48 bytes)
 
-Sent during a **CAS (Call Auction Session)**; carries the pre-auction imbalance for an
+Sent during a **CAS (Closing Auction Session)**; carries the pre-auction imbalance for an
 instrument.
 
 | `@` | Type | Field | Notes |

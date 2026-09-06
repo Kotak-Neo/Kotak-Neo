@@ -56,7 +56,7 @@ tinkering on a weekend project — this is the one to pick up.
 
 - **New market-data functions** — `expiries()`, `option_chain()`, and `historical_data()`
 - **Order tagging** — `place_order(tag=...)`, echoed back in `order_report()`/`trade_report()` for tracking
-- **Market status / CAS support** on the live feed — session open/close, pre-open, and Call Auction Session updates
+- **Market status / CAS support** on the live feed — session open/close, pre-open, and Closing Auction Session updates
 - **Jupyter Notebook support** — install guide, compatibility CI, and a smoke-test notebook
 - **A sync-integration guide** for using the async feeds from Django/Flask/Celery-style synchronous apps
 - **A logging overhaul** — structured JSON logging, one log line per request instead of several, auto-masked sensitive fields, and isolated from the host application's own logging setup
