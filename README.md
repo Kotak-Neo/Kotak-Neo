@@ -50,9 +50,9 @@ tinkering on a weekend project — this is the one to pick up.
 - ⚡ **Built for speed** — modern HTTP/2 under the hood
 - ✅ **Battle-tested** — thoroughly tested from top to bottom, so you can build with confidence
 
-### 🆕 What's new in v3.0.6
+### 🆕 What's new in v3.0.7
 
-`v3.0.6` ships directly on top of the previous release, `v3.0.1`. It added:
+`v3.0.7` ships directly on top of the previous release, `v3.0.1`. It added:
 
 - **New market-data functions** — `expiries()`, `option_chain()`, and `historical_data()`
 - **Order tagging** — `place_order(tag=...)`, echoed back in `order_report()`/`trade_report()` for tracking
