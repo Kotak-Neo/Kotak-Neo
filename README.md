@@ -30,7 +30,7 @@ tools you've always wanted. All from Python.
 
 [![Website](https://img.shields.io/badge/Kotak_Neo-Trade_API-0a66c2)](https://www.kotakneo.com/platform/kotak-neo-trade-api/)
 [![PyPI](https://img.shields.io/badge/pypi-kotakneoapi-green.svg)](https://pypi.org/project/kotakneoapi/)
-[![Version](https://img.shields.io/badge/version-3.0.7-green.svg)](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-3.0.8-green.svg)](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/LICENSE)
 
 **kotak-neo-python** is our
@@ -42,7 +42,7 @@ tinkering on a weekend project — this is the one to pick up.
 
 - 🔐 **Log in in two steps** — TOTP + MPIN, and you're trading
 - 📝 **Place, tweak, or cancel orders** without breaking a sweat
-- 💼 **Know what you hold** — live positions, holdings, and limits, always up to date
+- 💼 **Know what you hold, and what it's worth** — live positions, holdings, and limits, with P&L computed for you automatically (even for carry-forward positions)
 - 📊 **Live prices, live everything** — a real-time market feed built on modern async Python, so your app reacts the instant the market moves
 - 📈 **Go deeper on market data** — expiry lists, full option chains, and historical candles, whenever your strategy needs them
 - 🔔 **Never miss an order/ position update** — a dedicated feed streams your order and position changes as they happen
@@ -50,18 +50,14 @@ tinkering on a weekend project — this is the one to pick up.
 - ⚡ **Built for speed** — modern HTTP/2 under the hood
 - ✅ **Battle-tested** — thoroughly tested from top to bottom, so you can build with confidence
 
-### 🆕 What's new in v3.0.7
+### 🆕 What's new in v3.0.8
 
-`v3.0.7` ships directly on top of the previous release, `v3.0.1`. It added:
+- **Automatic Positions P&L** — `positions()` now computes `netQty`, `averagePrice`, `positionPnl`, and `mtmPnl` for every position, including carry-forward ones, instead of you reimplementing the math
+- **Fewer, smarter network calls** — `positions()` reuses a same-day `holdings()` cache (now persisted to disk, so it survives across separate script runs) and reads LTP straight off the position itself when available
+- **More reliable live feeds** — fixed two WebSocket reconnection bugs where a callback error could silently stop automatic reconnection, or make a successful reconnect look like a failure
+- **Clearer disconnect diagnostics** — order/position feed disconnect logs now include the actual WebSocket close code/reason
 
-- **New market-data functions** — `expiries()`, `option_chain()`, and `historical_data()`
-- **Order tagging** — `place_order(tag=...)`, echoed back in `order_report()`/`trade_report()` for tracking
-- **Market status / CAS support** on the live feed — session open/close, pre-open, and Closing Auction Session updates
-- **Jupyter Notebook support** — install guide, compatibility CI, and a smoke-test notebook
-- **A sync-integration guide** for using the async feeds from Django/Flask/Celery-style synchronous apps
-- **A logging overhaul** — structured JSON logging, one log line per request instead of several, auto-masked sensitive fields, and isolated from the host application's own logging setup
-
-See the SDK's **[CHANGELOG.md](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/CHANGELOG.md)** for full details.
+See the SDK's **[CHANGELOG.md](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/CHANGELOG.md)** for full details, including everything shipped in `v3.0.6`/`v3.0.7` (new market-data functions, order tagging, Jupyter/sync-integration support, and the logging overhaul).
 
 ---
 
