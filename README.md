@@ -30,7 +30,7 @@ tools you've always wanted. All from Python.
 
 [![Website](https://img.shields.io/badge/Kotak_Neo-Trade_API-0a66c2)](https://www.kotakneo.com/platform/kotak-neo-trade-api/)
 [![PyPI](https://img.shields.io/badge/pypi-kotakneoapi-green.svg)](https://pypi.org/project/kotakneoapi/)
-[![Version](https://img.shields.io/badge/version-3.0.9-green.svg)](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-3.0.7-green.svg)](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/LICENSE)
 
 **kotak-neo-python** is our
@@ -50,14 +50,18 @@ tinkering on a weekend project — this is the one to pick up.
 - ⚡ **Built for speed** — modern HTTP/2 under the hood
 - ✅ **Battle-tested** — thoroughly tested from top to bottom, so you can build with confidence
 
-### 🆕 What's new in v3.0.9
+### 🆕 What's new in v3.0.7
 
-- **More reliable live feeds** — fixed two WebSocket reconnection bugs where a callback error could silently stop automatic reconnection, or make a successful reconnect look like a failure
-- **Clearer disconnect diagnostics** — order/position feed disconnect logs now include the actual WebSocket close code/reason
-- **Rate-limit visibility** — `quotes()`, `expiries()`, `option_chain()`, and `historical_data()` now surface backend rate-limit headers when present
-- **Positions API update** — `positions()` now calls `portfolio/v2/positions`, which includes an `ltp` field per position
+`v3.0.7` ships directly on top of the previous release, `v3.0.1`. It added:
 
-See the SDK's **[CHANGELOG.md](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/CHANGELOG.md)** for full details, including everything shipped in `v3.0.6`/`v3.0.7` (new market-data functions, order tagging, Jupyter/sync-integration support, and the logging overhaul).
+- **New market-data functions** — `expiries()`, `option_chain()`, and `historical_data()`
+- **Order tagging** — `place_order(tag=...)`, echoed back in `order_report()`/`trade_report()` for tracking
+- **Market status / CAS support** on the live feed — session open/close, pre-open, and Closing Auction Session updates
+- **Jupyter Notebook support** — install guide, compatibility CI, and a smoke-test notebook
+- **A sync-integration guide** for using the async feeds from Django/Flask/Celery-style synchronous apps
+- **A logging overhaul** — structured JSON logging, one log line per request instead of several, auto-masked sensitive fields, and isolated from the host application's own logging setup
+
+See the SDK's **[CHANGELOG.md](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/CHANGELOG.md)** for full details.
 
 ---
 
