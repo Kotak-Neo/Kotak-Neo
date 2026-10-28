@@ -30,7 +30,7 @@ tools you've always wanted. All from Python.
 
 [![Website](https://img.shields.io/badge/Kotak_Neo-Trade_API-0a66c2)](https://www.kotakneo.com/platform/kotak-neo-trade-api/)
 [![PyPI](https://img.shields.io/badge/pypi-kotakneoapi-green.svg)](https://pypi.org/project/kotakneoapi/)
-[![Version](https://img.shields.io/badge/version-3.0.9-green.svg)](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-3.0.13-green.svg)](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/LICENSE)
 
 **kotak-neo-python** is our
@@ -50,15 +50,12 @@ tinkering on a weekend project — this is the one to pick up.
 - ⚡ **Built for speed** — modern HTTP/2 under the hood
 - ✅ **Battle-tested** — thoroughly tested from top to bottom, so you can build with confidence
 
-### 🆕 What's new in v3.0.9
+### 🆕 What's new in v3.0.13
 
-- **More reliable live feeds** — fixed three WebSocket reconnection bugs: a callback error could silently stop automatic reconnection, make a successful reconnect look like a failure, or end your `async for` loop on a disconnect the SDK was about to recover from on its own
-- **Clearer disconnect diagnostics** — order/position feed disconnect logs now include the actual WebSocket close code/reason
-- **Rate-limit visibility** — `quotes()`, `expiries()`, `option_chain()`, and `historical_data()` now surface backend rate-limit headers when present
-- **Positions API update** — `positions()` now calls `portfolio/v2/positions`, which includes an `ltp` field per position
-- **Smoother migration from the legacy SDK** — the migration scanner now also checks your active environment for leftover files from an un-uninstalled `neo-api-client`, not just your source code
+- **New `nse_com` (NSE Commodity) segment support** — accepted by `place_order()`, `margin_required()`, `quotes()`, and `search_scrip()`, with its own order-type/product restrictions enforced where the exchange requires them
+- **Fixed UAT login** — `totp_login()`/`totp_validate()` on the UAT environment were hitting a non-working path; now resolve correctly
 
-See the SDK's **[CHANGELOG.md](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/CHANGELOG.md)** for full details.
+See the SDK's **[CHANGELOG.md](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/CHANGELOG.md)** for full details, including everything shipped in `v3.0.9` (WebSocket reconnection fixes, rate-limit visibility, and the `positions()`/`portfolio/v2/positions` update).
 
 ---
 
