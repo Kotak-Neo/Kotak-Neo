@@ -53,7 +53,6 @@ tinkering on a weekend project — this is the one to pick up.
 ### 🆕 What's new in v3.0.13
 
 - **New `nse_com` (NSE Commodity) segment support** — accepted by `place_order()`, `margin_required()`, `quotes()`, and `search_scrip()`, with its own order-type/product restrictions enforced where the exchange requires them
-- **Fixed UAT login** — `totp_login()`/`totp_validate()` on the UAT environment were hitting a non-working path; now resolve correctly
 
 See the SDK's **[CHANGELOG.md](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/CHANGELOG.md)** for full details, including everything shipped in `v3.0.9` (WebSocket reconnection fixes, rate-limit visibility, and the `positions()`/`portfolio/v2/positions` update).
 
