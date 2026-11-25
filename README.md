@@ -54,7 +54,7 @@ tinkering on a weekend project — this is the one to pick up.
 
 - **New `nse_com` (NSE Commodity) segment support** — accepted by `place_order()`, `margin_required()`, `quotes()`, and `search_scrip()`, with its own order-type/product restrictions enforced where the exchange requires them
 
-See the SDK's **[CHANGELOG.md](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/CHANGELOG.md)** for full details, including everything shipped in `v3.0.9` (WebSocket reconnection fixes, rate-limit visibility, and the `positions()`/`portfolio/v2/positions` update).
+See the SDK's **[CHANGELOG.md](https://github.com/Kotak-Neo/kotak-neo-python/blob/main/CHANGELOG.md)** for full details on `v3.0.13` (also includes a UAT login path fix and a `search_scrip()` crash fix, alongside `nse_com` support above) and everything shipped in `v3.0.9` (WebSocket reconnection fixes, rate-limit visibility, and the `positions()`/`portfolio/v2/positions` update).
 
 ---
 
